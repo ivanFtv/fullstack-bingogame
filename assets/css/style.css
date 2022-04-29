@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+#logo{
+    height: 3.5em;
+}
+.navbarbingo{
+    padding: 0 !important;
+}
+
+.p-head {
+    font-size: 1.2em;
+}
+
+.textGreen {
+    color: green !important;
+}
+
+.card {
+    background-image: url(../../images/scheda_bingo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 330px;
+}
+
+#numberContainer {
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    max-height: 210px;
+    max-width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mainNumbersContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.borderYellow {
+    border: 2px solid rgb(253, 226, 22);
+}
+
+.mainNumbers {
+    min-width: 37px !important;
+    min-height: 37px !important;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 1.5em;
+    background-color: rgb(156, 231, 237);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    width: 88px;
+    height: 70px;
+    font-size: 2.5em;
+    color: rgb(41, 41, 41);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extracted::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(16, 207, 38, 0.571);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 10;
+}
+
+.signup {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(23, 164, 54);
+}
+
+.betSelected {
+    transform: scale(1.1);
+    background-color: green !important;
+}
+
+@media screen and (max-width: 993px) {
+    .divbetbutton {
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        padding: 5px;
+    }
+
+    .betButton {
+        width: 60px !important;
+        height: 60px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divgame {
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin:5px;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    .p-head {
+        font-size: 1em;
+    }
+
+    .divhead {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    .formheader {
+        justify-content: center !important;
+    }
+
+    #numberContainer {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        max-height: 210px;
+        max-width: 440px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        height: 220px;
+    }
+
+    .number {
+        width: 55px;
+        height: 45px;
+        font-size: 1.5em;
+        color: rgb(41, 41, 41);
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
