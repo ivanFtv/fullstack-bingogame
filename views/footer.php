@@ -3,7 +3,7 @@
         <div class="container pt-2">
             <div class="row">
                 <div class="col text-center">
-                    <p class="text-center text-dark">&copy; 2022 - Squadra Gamma - All rights reserved<br />Giorgia - Hamza - Ivan - Dario</p>
+                    <p class="text-center text-dark">&copy; 2022 - Ivan Pellegatta - All rights reserved</p>
                 </div>
             </div>
         </div>
